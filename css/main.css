@@ -1513,6 +1513,9 @@ pre .javascript .function {
   font-size: 14px;
   margin-top: 2px;
 }
+.post-wordcount {
+  display: inline-block;
+}
 .post-meta-divider {
   margin: 0 0.5em;
 }
@@ -1822,7 +1825,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #2aff3b;
+  background: #ff2016;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2903,4 +2906,18 @@ hr {
     width: auto;
     text-align: center;
   }
+}
+.bg_content {
+  position: fixed;
+  top: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+}
+#canvas {
+  width: 100%;
+  height: 100%;
+}
+.header {
+  background: transparent;
 }
